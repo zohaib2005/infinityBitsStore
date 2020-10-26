@@ -1,9 +1,7 @@
 .container-main {
   display: flex;
   justify-content: space-around;
-  //   border: 1px solid;
   width: 100%;
-  //   flex-wrap: wrap;
   margin-bottom: 50px;
 }
 
@@ -12,7 +10,6 @@
   display: flex;
   flex-direction: column;
   height: 250px;
-  // border: 1px solid green;
   justify-content: stretch;
   align-items: stretch;
   position: relative;
@@ -31,7 +28,7 @@
 
 .button {
   position: absolute;
-  width: 79%;
+  width: 66%;
   left: 0;
   top: 173px;
   height: 35px;
