@@ -1,0 +1,70 @@
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 50px;
+  color: #fff;
+  background-color: #f9f9f9;
+}
+
+.footer li {
+  line-height: 2em;
+  width: 230px;
+}
+
+.footer a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box a {
+  color: #999;
+}
+
+.emailForm {
+  display: flex;
+
+  width: 245px;
+  padding: 4px 2px;
+  border: 1px solid;
+}
+.submit {
+  color: white;
+  border-radius: 0px 50px 50px 0px;
+  background-color: #112d46;
+}
+
+.text {
+  border-radius: 50px 0px 0px 50px;
+  width: 200px;
+}
+
+.b-footer {
+  text-align: center;
+  color: #999;
+  width: 100%;
+  position: relative;
+  background-color: #112d46;
+  padding-top: 50px;
+  height: 12px;
+}
+
+.l-footer p {
+  padding-right: 20%;
+  color: #999;
+}
+
+.iconPadding {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.footerText {
+  position: absolute;
+  top: 6px;
+  left: 34rem;
+}

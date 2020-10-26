@@ -1,0 +1,125 @@
+.root {
+  display: "flex";
+}
+
+.details {
+  display: "flex";
+  flex-direction: "column";
+}
+
+.content {
+  flex: "1 0 auto";
+}
+
+.cover {
+  max-width: 35%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 35%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background: url(./cartimage.jpeg);
+  background-repeat: no-repeat;
+  margin-bottom: 5px;
+
+  &:hover {
+    background: url(./hoveredImage.jpeg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+    transition: all 0.9s ease-in-out 0s;
+  }
+}
+
+.controls {
+  display: "flex";
+  align-items: "center";
+}
+
+.playIcon {
+  height: 38;
+  width: 38;
+}
+
+.sideTextContainer {
+  display: flex;
+  height: 50%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.textColor {
+  color: #112d46;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.smallTextColor {
+  color: #9b9a9a;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.verticalLine {
+  border-left: 5px solid;
+  height: inherit;
+  color: #112d46;
+}
+
+.lineAndText {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  padding-left: 30px;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  &.outline {
+    position: relative;
+    z-index: 3;
+    background-color: #ecf1ef;
+    background: transparent;
+    color: #1172c4;
+    font-size: 14px;
+    align-self: flex-start;
+    border-color: #1172c4;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 22px;
+    padding: 10px 40px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    transition: all 0.2s linear;
+    a {
+      text-decoration: none;
+    }
+  }
+  &.outline:hover {
+    color: white;
+    background: #1172c4;
+    border-color: white;
+    transition: all 0.2s linear;
+  }
+  &.outline:active {
+    border-radius: 22px;
+  }
+  &.white-blue {
+    font-weight: 700;
+    color: #00aeef;
+    border-color: white;
+    background: white;
+  }
+  &.white-blue:hover {
+    color: white;
+    background: #00aeef;
+    border-color: white;
+  }
+}

@@ -19,6 +19,11 @@
   color: white;
 }
 
+.home-page-padding {
+  padding-left: 60px;
+  padding-top: 30px;
+}
+
 .App-link {
   color: #61dafb;
 }
